@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spanish 2 - Monthly View</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <header>
+    <h1>Spanish 2 Monthly Calendar</h1>
+    <p>August 2025</p>
+  </header>
+
+  <div class="nav-arrows">
+    <a href="#" class="nav-button">&larr; Previous Month</a>
+    <a href="#" class="nav-button">Next Month &rarr;</a>
+  </div>
+
+  <div class="calendar">
+    <div class="day">Sun</div>
+    <div class="day">Mon</div>
+    <div class="day">Tue</div>
+    <div class="day">Wed</div>
+    <div class="day">Thu</div>
+    <div class="day">Fri</div>
+    <div class="day">Sat</div>
+
+    <!-- Week 1 -->
+    <div class="date-cell"></div>
+    <div class="date-cell"></div>
+    <div class="date-cell"></div>
+    <div class="date-cell"></div>
+    <div class="date-cell"><span class="date-number">1</span></div>
+    <div class="date-cell today" id="today">
+      <span class="date-number">2</span>
+      <div class="entry">Bellringer: Classroom Vocabulary<br>Assignment: Vocabulary matching</div>
+    </div>
+    <div class="date-cell"><span class="date-number">3</span></div>
+
+    <!-- Week 2 -->
+    <div class="date-cell"><span class="date-number">4</span></div>
+    <div class="date-cell"><span class="date-number">5</span></div>
+    <div class="date-cell"><span class="date-number">6</span></div>
+    <div class="date-cell"><span class="date-number">7</span></div>
+    <div class="date-cell"><span class="date-number">8</span></div>
+    <div class="date-cell"><span class="date-number">9</span></div>
+    <div class="date-cell"><span class="date-number">10</span></div>
+
+    <!-- Week 3 -->
+    <div class="date-cell"><span class="date-number">11</span></div>
+    <div class="date-cell"><span class="date-number">12</span></div>
+    <div class="date-cell"><span class="date-number">13</span></div>
+    <div class="date-cell"><span class="date-number">14</span></div>
+    <div class="date-cell"><span class="date-number">15</span></div>
+    <div class="date-cell"><span class="date-number">16</span></div>
+    <div class="date-cell"><span class="date-number">17</span></div>
+
+    <!-- Week 4 -->
+    <div class="date-cell"><span class="date-number">18</span></div>
+    <div class="date-cell"><span class="date-number">19</span></div>
+    <div class="date-cell"><span class="date-number">20</span></div>
+    <div class="date-cell"><span class="date-number">21</span></div>
+    <div class="date-cell"><span class="date-number">22</span></div>
+    <div class="date-cell"><span class="date-number">23</span></div>
+    <div class="date-cell"><span class="date-number">24</span></div>
+
+    <!-- Week 5 -->
+    <div class="date-cell"><span class="date-number">25</span></div>
+    <div class="date-cell"><span class="date-number">26</span></div>
+    <div class="date-cell"><span class="date-number">27</span></div>
+    <div class="date-cell"><span class="date-number">28</span></div>
+    <div class="date-cell"><span class="date-number">29</span></div>
+    <div class="date-cell"><span class="date-number">30</span></div>
+    <div class="date-cell"><span class="date-number">31</span></div>
+  </div>
+
+  <a href="index.html" class="home-button">Home</a>
+
+  <script>
+    window.onload = () => {
+      const today = document.getElementById("today");
+      if (today) {
+        today.scrollIntoView({ behavior: "smooth", block: "center" });
+      }
+    };
+  </script>
+</body>
+</html>

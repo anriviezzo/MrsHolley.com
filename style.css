@@ -1,0 +1,205 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f1e4d1;
+    background-image: url('images/polka_dots.png');
+    background-position: top 130px center;
+    background-size: 200px 200px;
+    background-repeat: repeat;
+    margin: 0;
+  }
+  
+  header {
+    background-color: #fdfaf5;
+    padding: 1.5rem;
+    text-align: center;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+  }
+  
+  .box {
+    background-color: #fff6ef;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .box2{
+    background-color: #a78b71;
+    color: #fff6ef;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .box:hover {
+    transform: scale(1.03);
+    background-color: #f5dcb1;
+  }
+  
+  .box2:hover {
+    transform: scale(1.03);
+    background-color: #f5dcb5;
+  }
+
+  .home-button {
+    display: block;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #5B3A29;
+    text-decoration: none;
+  }
+
+  header {
+    background-color: #e3f1e1;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #4a3d32;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-family: 'Fredoka', cursive;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 12px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .day {
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+    background-color: #e4d5c2;
+    border-radius: 8px;
+    color: #4a3d32;
+  }
+  
+  .date-cell {
+    min-height: 100px;
+    padding: 10px;
+    background-color: #fef6f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: relative;
+    font-size: 0.9em;
+  }
+
+  .date-number {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #4a3d32;
+  
+}  
+  .entry {
+    font-size: 0.85em;
+    color: #333;
+  }
+  
+  .today {
+    border: 2px solid #a78b71;
+    background-color: #fdf1e7;
+  }
+  
+  .nav-arrows {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 0 20px;
+    font-size: 0.9em;
+  }
+  
+  .nav-arrows a {
+    text-decoration: none;
+    color: #5a3b29;
+  }
+  
+  .home-button {
+    display: block;
+    width: 120px;
+    margin: 40px auto;
+    padding: 10px;
+    background-color: #a4c3b2;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  header {
+    background-color: #def0e4;
+    padding: 1.5rem;
+    text-align: center;
+  }
+
+  h1 {
+    font-family: 'Sour Gummy', cursive;
+    font-size: 2.2em;
+    color: #4a3d32;
+    margin-bottom: 0.2em;
+  }
+
+  header h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 5rem;
+    color: #5B3A29;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .contact-button {
+    background-color: #a8bfa0;
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+  }
+
+  .contact-button:hover {
+    background-color: #8ea38b;
+  }
+
+  .nav-button {
+    background-color: #a8bfa0;
+    color: white;
+    font-weight: bold;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    margin: 0 0.5rem;
+    display: inline-block;
+  }
+  
+  .nav-button:hover {
+    background-color: #8ea38b;
+  }
